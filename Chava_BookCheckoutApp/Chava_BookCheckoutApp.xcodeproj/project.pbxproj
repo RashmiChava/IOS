@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F3A4BBF27FF6CA1001EDF93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4BBE27FF6CA1001EDF93 /* AppDelegate.swift */; };
 		3F3A4BC127FF6CA1001EDF93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4BC027FF6CA1001EDF93 /* SceneDelegate.swift */; };
-		3F3A4BC327FF6CA1001EDF93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4BC227FF6CA1001EDF93 /* ViewController.swift */; };
+		3F3A4BC327FF6CA1001EDF93 /* AvalabilityCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4BC227FF6CA1001EDF93 /* AvalabilityCheckViewController.swift */; };
 		3F3A4BC627FF6CA1001EDF93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A4BC427FF6CA1001EDF93 /* Main.storyboard */; };
 		3F3A4BC827FF6CA4001EDF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A4BC727FF6CA4001EDF93 /* Assets.xcassets */; };
 		3F3A4BCB27FF6CA4001EDF93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A4BC927FF6CA4001EDF93 /* LaunchScreen.storyboard */; };
@@ -41,7 +41,7 @@
 		3F3A4BBB27FF6CA1001EDF93 /* Chava_BookCheckoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chava_BookCheckoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3A4BBE27FF6CA1001EDF93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3A4BC027FF6CA1001EDF93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F3A4BC227FF6CA1001EDF93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3A4BC227FF6CA1001EDF93 /* AvalabilityCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalabilityCheckViewController.swift; sourceTree = "<group>"; };
 		3F3A4BC527FF6CA1001EDF93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F3A4BC727FF6CA4001EDF93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3A4BCA27FF6CA4001EDF93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			children = (
 				3F3A4BBE27FF6CA1001EDF93 /* AppDelegate.swift */,
 				3F3A4BC027FF6CA1001EDF93 /* SceneDelegate.swift */,
-				3F3A4BC227FF6CA1001EDF93 /* ViewController.swift */,
+				3F3A4BC227FF6CA1001EDF93 /* AvalabilityCheckViewController.swift */,
 				3F3A4BC427FF6CA1001EDF93 /* Main.storyboard */,
 				3F3A4BC727FF6CA4001EDF93 /* Assets.xcassets */,
 				3F3A4BC927FF6CA4001EDF93 /* LaunchScreen.storyboard */,
@@ -266,7 +266,7 @@
 			files = (
 				3F3A4BF127FF7114001EDF93 /* Book.swift in Sources */,
 				3F3A4BF327FF7B61001EDF93 /* CheckoutConfirmationViewController.swift in Sources */,
-				3F3A4BC327FF6CA1001EDF93 /* ViewController.swift in Sources */,
+				3F3A4BC327FF6CA1001EDF93 /* AvalabilityCheckViewController.swift in Sources */,
 				3F3A4BBF27FF6CA1001EDF93 /* AppDelegate.swift in Sources */,
 				3F3A4BC127FF6CA1001EDF93 /* SceneDelegate.swift in Sources */,
 			);

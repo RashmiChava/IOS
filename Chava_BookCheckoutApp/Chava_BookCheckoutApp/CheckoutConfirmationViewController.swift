@@ -9,6 +9,8 @@ import UIKit
 
 class CheckoutConfirmationViewController: UIViewController {
 
+    var bookName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
