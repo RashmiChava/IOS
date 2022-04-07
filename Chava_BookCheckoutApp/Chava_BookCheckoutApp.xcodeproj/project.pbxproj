@@ -17,6 +17,7 @@
 		3F3A4BE027FF6CA4001EDF93 /* Chava_BookCheckoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4BDF27FF6CA4001EDF93 /* Chava_BookCheckoutAppUITests.swift */; };
 		3F3A4BE227FF6CA4001EDF93 /* Chava_BookCheckoutAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4BE127FF6CA4001EDF93 /* Chava_BookCheckoutAppUITestsLaunchTests.swift */; };
 		3F3A4BF127FF7114001EDF93 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4BF027FF7114001EDF93 /* Book.swift */; };
+		3F3A4BF327FF7B61001EDF93 /* CheckoutConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4BF227FF7B61001EDF93 /* CheckoutConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3F3A4BDF27FF6CA4001EDF93 /* Chava_BookCheckoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chava_BookCheckoutAppUITests.swift; sourceTree = "<group>"; };
 		3F3A4BE127FF6CA4001EDF93 /* Chava_BookCheckoutAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chava_BookCheckoutAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F3A4BF027FF7114001EDF93 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3F3A4BF227FF7B61001EDF93 /* CheckoutConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				3F3A4BC927FF6CA4001EDF93 /* LaunchScreen.storyboard */,
 				3F3A4BCC27FF6CA4001EDF93 /* Info.plist */,
 				3F3A4BF027FF7114001EDF93 /* Book.swift */,
+				3F3A4BF227FF7B61001EDF93 /* CheckoutConfirmationViewController.swift */,
 			);
 			path = Chava_BookCheckoutApp;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3A4BF127FF7114001EDF93 /* Book.swift in Sources */,
+				3F3A4BF327FF7B61001EDF93 /* CheckoutConfirmationViewController.swift in Sources */,
 				3F3A4BC327FF6CA1001EDF93 /* ViewController.swift in Sources */,
 				3F3A4BBF27FF6CA1001EDF93 /* AppDelegate.swift in Sources */,
 				3F3A4BC127FF6CA1001EDF93 /* SceneDelegate.swift in Sources */,

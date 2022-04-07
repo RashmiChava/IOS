@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Imageoutlet: UIImageView!
     @IBOutlet weak var BookFound: UILabel!
     
+    @IBOutlet weak var Checkout: UIButton!
     var bookfound = Book()
     
     var isBook = false
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        Checkout.isHidden = true
     }
 
     
@@ -41,6 +43,9 @@ class ViewController: UIViewController {
                 BookFound.text = "Book with ID" + enteredId + "found!"
                 //Imageoutlet.image = UIImage(book.bookImage)
                 
+                Checkout.isHidden = false
+                
+                
                 
                 
             }
@@ -53,6 +58,7 @@ class ViewController: UIViewController {
                 
                 
         }
+        
     }
     
 
